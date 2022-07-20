@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*Nav Bard Start*/
+
+body {
+    background-color: #0d1321;
+    background-image: url(../Images/placeimg_1000_720_tech.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    opacity: 0.9;
+}
+
+.socialbar{
+    background-color: #3e5c76;
+}

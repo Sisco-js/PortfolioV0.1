@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*Nav Bard Start*/
+
+body{
+    background-color: #0d1321;
+    background-image: url(../Images/placeimg_1000_720_tech.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    opacity: 0.9;
+    
+}
+
+.navcontainer{
+    background-color: #3e5c76;
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    margin: 0;
+    }
+
+.navcontainer .navbar{
+    height: 50px;
+    width: auto;
+    padding-top: 10px;
+    margin: 0;
+    flex-grow: 3;
+}
+
+.navcontainer .socialbar{
+    padding-top: 15px;
+    padding-right: 15px;
+    float: right;
+    }
+
+.navcontainer .navbar button{
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+
+/*Nav Bard End*/
+
+/*Body Start*/
+
+.intro{
+    display: flex;
+    flex-direction: row;
+    }
+
+.intro .introcontainer{
+    height: auto;
+    width: 300px;
+    margin: 50px 50px;
+    padding: 10px 10px;
+    border-radius: 10px;
+    background-color: #3e5c76;
+    }
+
+p{
+    color: #e8eddf;
+    text-align: justify;
+    font-size: 15px;
+}
+
+
+h1{
+    color: #e8eddf;
+    text-align: left;
+    font-size: 25px;
+}
+
+/*Technologies*/
+
+.techuse{
+    display:flex;
+    flex-direction: row;
+}
+
+/*Footer*/
+
+footer {
+    background-color: #3e5c76;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+}
+
+h5{
+    text-align: center;
+    padding-top: 5px;
+}
+
+.top{
+    float: right;
+    padding-right: 15px;
+}
+
+.techuse{
+    display: flex;
+    flex-direction: row;
+    padding-top: 211px;
+    padding-left: 360px;
+}
